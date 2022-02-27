@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		033C2EF61D081C460050C015 /* UIScrollView+RxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033C2EF41D081B2A0050C015 /* UIScrollView+RxTests.swift */; };
+		0879F4E027CB1D8F00AF040A /* UIAccessibility+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0879F4DF27CB1D8F00AF040A /* UIAccessibility+Rx.swift */; };
 		0BA949671E224B7E0036DD06 /* AsyncSubject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA949661E224B7E0036DD06 /* AsyncSubject.swift */; };
 		0BA9496C1E224B9C0036DD06 /* AsyncSubjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA9496B1E224B9C0036DD06 /* AsyncSubjectTests.swift */; };
 		0BA9496D1E224B9C0036DD06 /* AsyncSubjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA9496B1E224B9C0036DD06 /* AsyncSubjectTests.swift */; };
@@ -952,6 +953,7 @@
 
 /* Begin PBXFileReference section */
 		033C2EF41D081B2A0050C015 /* UIScrollView+RxTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIScrollView+RxTests.swift"; sourceTree = "<group>"; };
+		0879F4DF27CB1D8F00AF040A /* UIAccessibility+Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIAccessibility+Rx.swift"; sourceTree = "<group>"; };
 		0BA949661E224B7E0036DD06 /* AsyncSubject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncSubject.swift; sourceTree = "<group>"; };
 		0BA9496B1E224B9C0036DD06 /* AsyncSubjectTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncSubjectTests.swift; sourceTree = "<group>"; };
 		1AF67DA11CED420A00C310FA /* PublishSubjectTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PublishSubjectTest.swift; sourceTree = "<group>"; };
@@ -2258,6 +2260,7 @@
 				84E4D3901C9AFCD500ADFDC9 /* UISearchController+Rx.swift */,
 				844BC8B31CE4FD7500F5C7CB /* UIPickerView+Rx.swift */,
 				504540C824196D960098665F /* WKWebView+Rx.swift */,
+				0879F4DF27CB1D8F00AF040A /* UIAccessibility+Rx.swift */,
 			);
 			path = iOS;
 			sourceTree = "<group>";
@@ -3101,6 +3104,7 @@
 				C88254301B8A752B00B02D69 /* UISearchBar+Rx.swift in Sources */,
 				C89AB2121DAAC3350065FBE6 /* NotificationCenter+Rx.swift in Sources */,
 				C88254181B8A752B00B02D69 /* ItemEvents.swift in Sources */,
+				0879F4E027CB1D8F00AF040A /* UIAccessibility+Rx.swift in Sources */,
 				504540C924196D960098665F /* WKWebView+Rx.swift in Sources */,
 				DB08833726FB0637005805BE /* SharedSequence+Concurrency.swift in Sources */,
 				C89AB1731DAAC1680065FBE6 /* ControlTarget.swift in Sources */,
